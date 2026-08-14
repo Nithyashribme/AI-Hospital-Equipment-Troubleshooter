@@ -1,0 +1,262 @@
+{
+  "ECG Machine": [
+    {
+      "name": "Printing problem",
+      "keywords": [
+        "print",
+        "printing",
+        "printer",
+        "paper"
+      ],
+      "causes": [
+        "Printer paper may be empty or incorrectly loaded.",
+        "The printer status or connection may need checking.",
+        "A device or software setting may be preventing printing."
+      ],
+      "checks": [
+        "Check paper supply and loading according to the manufacturer instructions.",
+        "Check the visible printer/status indicators and approved connections.",
+        "Retry the operation according to the device SOP.",
+        "If the problem persists, escalate to qualified biomedical/technical personnel."
+      ],
+      "safety": "Do not open the equipment enclosure or perform internal electrical repairs. Follow hospital SOP and manufacturer instructions."
+    },
+    {
+      "name": "Noisy or abnormal ECG trace",
+      "keywords": [
+        "noise",
+        "noisy",
+        "signal",
+        "waveform",
+        "lead",
+        "electrode"
+      ],
+      "causes": [
+        "Electrode contact may be poor.",
+        "A lead may be loose or incorrectly connected.",
+        "Patient movement or electrical interference may affect the trace."
+      ],
+      "checks": [
+        "Check electrode placement and skin contact.",
+        "Check lead connections and visible cable condition.",
+        "Reduce avoidable movement/interference according to the clinical procedure."
+      ],
+      "safety": "Do not rely on a malfunctioning signal for clinical decisions. Escalate persistent faults."
+    }
+  ],
+  "Patient Monitor": [
+    {
+      "name": "SpO2 reading problem",
+      "keywords": [
+        "spo2",
+        "oxygen",
+        "saturation",
+        "pulse ox"
+      ],
+      "causes": [
+        "Sensor placement or contact may be poor.",
+        "The sensor or cable may be damaged.",
+        "Patient movement may affect the measurement."
+      ],
+      "checks": [
+        "Check sensor placement and cable connection.",
+        "Check the sensor for visible damage.",
+        "Follow the monitor's instructions for an appropriate measurement site."
+      ],
+      "safety": "Monitor readings require appropriate clinical interpretation. Escalate persistent equipment faults."
+    },
+    {
+      "name": "ECG/lead problem",
+      "keywords": [
+        "ecg",
+        "heart rate",
+        "lead",
+        "electrode"
+      ],
+      "causes": [
+        "ECG electrodes or leads may have poor contact.",
+        "A lead may be disconnected.",
+        "Motion or electrical interference may affect the trace."
+      ],
+      "checks": [
+        "Check lead connections and electrode contact.",
+        "Check visible cable condition.",
+        "Follow the manufacturer's monitoring procedure."
+      ],
+      "safety": "Do not rely on a malfunctioning monitor for patient care. Escalate faults according to hospital procedure."
+    }
+  ],
+  "Infusion Pump": [
+    {
+      "name": "Occlusion or pressure alarm",
+      "keywords": [
+        "occlusion",
+        "blocked",
+        "pressure",
+        "alarm",
+        "line"
+      ],
+      "causes": [
+        "The infusion line may be kinked or obstructed.",
+        "Tubing may not be correctly positioned.",
+        "The device may be detecting abnormal downstream pressure."
+      ],
+      "checks": [
+        "Check the tubing for visible kinks or obstruction.",
+        "Check tubing placement according to the pump instructions.",
+        "Follow the hospital protocol for responding to infusion alarms."
+      ],
+      "safety": "Do not bypass alarms or alter infusion settings without appropriate authorization. Escalate persistent faults."
+    },
+    {
+      "name": "Power or battery problem",
+      "keywords": [
+        "battery",
+        "power",
+        "not turning",
+        "won't turn",
+        "doesn't turn"
+      ],
+      "causes": [
+        "The power source may be unavailable.",
+        "The battery may be depleted.",
+        "The power connection may not be secure."
+      ],
+      "checks": [
+        "Check the approved power connection.",
+        "Check the battery/status indicator.",
+        "Follow the manufacturer's procedure for power and battery checks."
+      ],
+      "safety": "Do not open the pump for internal repair. Remove from clinical use and escalate if safe operation cannot be confirmed."
+    }
+  ],
+  "Ventilator": [
+    {
+      "name": "Flow or expiratory sensor problem",
+      "keywords": [
+        "airflow",
+        "flow",
+        "sensor",
+        "expiratory",
+        "exhalation"
+      ],
+      "causes": [
+        "The flow sensor may be disconnected or incorrectly positioned.",
+        "The breathing circuit may have a connection or obstruction issue.",
+        "The sensor may require inspection according to the manufacturer procedure."
+      ],
+      "checks": [
+        "Check visible circuit connections.",
+        "Check sensor connection and placement according to device instructions.",
+        "Follow the ventilator alarm and troubleshooting procedure."
+      ],
+      "safety": "Ventilator faults can directly affect patient safety. Do not improvise repairs; follow emergency clinical procedures and contact qualified personnel."
+    },
+    {
+      "name": "High-pressure or alarm condition",
+      "keywords": [
+        "alarm",
+        "high pressure",
+        "pressure"
+      ],
+      "causes": [
+        "The breathing circuit may be kinked or obstructed.",
+        "The alarm may indicate a device or patient-related condition.",
+        "A clinical assessment may be required."
+      ],
+      "checks": [
+        "Check visible circuit connections and tubing.",
+        "Follow the ventilator alarm procedure.",
+        "Ensure appropriate clinical staff assess the patient and situation."
+      ],
+      "safety": "Never bypass an alarm without addressing its cause and following the clinical protocol."
+    }
+  ],
+  "Defibrillator": [
+    {
+      "name": "Power or battery problem",
+      "keywords": [
+        "battery",
+        "power",
+        "not turning",
+        "won't turn",
+        "doesn't turn"
+      ],
+      "causes": [
+        "The battery may be depleted.",
+        "The approved power connection may not be available.",
+        "A device fault may be present."
+      ],
+      "checks": [
+        "Check device power/battery indicators.",
+        "Check the approved power connection.",
+        "Confirm required status/self-test indicators according to manufacturer instructions."
+      ],
+      "safety": "Defibrillators are critical emergency devices. Do not open or internally repair them; follow emergency equipment procedures."
+    },
+    {
+      "name": "Pad/electrode connection problem",
+      "keywords": [
+        "pads",
+        "electrode",
+        "charging",
+        "shock"
+      ],
+      "causes": [
+        "Pads/electrodes may not be correctly connected.",
+        "Consumables may be expired or unavailable.",
+        "The device may report a technical fault."
+      ],
+      "checks": [
+        "Check visible connections and consumable status.",
+        "Check the displayed fault/status message.",
+        "Follow the manufacturer's procedure and hospital emergency protocol."
+      ],
+      "safety": "Do not test or deliver therapy to a person as part of troubleshooting. Use approved test procedures and qualified personnel."
+    }
+  ],
+  "Hemodialysis Machine": [
+    {
+      "name": "Alarm condition",
+      "keywords": [
+        "alarm",
+        "pressure",
+        "conductivity",
+        "temperature"
+      ],
+      "causes": [
+        "The machine may be detecting a pressure, conductivity, or temperature condition.",
+        "A connection or consumable condition may need checking.",
+        "The alarm may require the manufacturer's specific procedure."
+      ],
+      "checks": [
+        "Read the displayed alarm message carefully.",
+        "Check only visible connections and consumables permitted by the SOP.",
+        "Follow the manufacturer's alarm procedure and escalate when required."
+      ],
+      "safety": "Dialysis equipment is life-supporting therapy equipment. Do not bypass alarms or perform internal repair without qualified authorization."
+    }
+  ],
+  "Suction Machine": [
+    {
+      "name": "Low or no suction",
+      "keywords": [
+        "suction",
+        "vacuum",
+        "low pressure",
+        "no suction"
+      ],
+      "causes": [
+        "The tubing or collection system may be disconnected or obstructed.",
+        "The collection container may be full or incorrectly assembled.",
+        "The filter or tubing condition may need checking."
+      ],
+      "checks": [
+        "Check visible tubing connections and the collection container.",
+        "Check for visible obstruction according to the device instructions.",
+        "Follow the manufacturer's procedure for filter/container checks."
+      ],
+      "safety": "Do not open internal components while connected to power. Escalate persistent faults."
+    }
+  ]
+}
